@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS `LittleLemonDB`.`Customers` (
   `FirstName` VARCHAR(255) NOT NULL,
   `LastName` VARCHAR(255) NOT NULL,
   `ContactNumber` VARCHAR(10) NOT NULL,
+  `Email` VARCHAR(255) NOT NULL,
   PRIMARY KEY (`CustomerID`))
 ENGINE = InnoDB;
 
